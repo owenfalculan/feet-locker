@@ -1,0 +1,72 @@
+:root {
+  --dark: #343A40;
+  --secondary: #6C757D;
+  --gray1: #C4C4C4;
+  --gray2: #E5E5E5;
+  --gray3: #F5F5F5;
+  --gray4: #FAFAFA;
+  --light: #f8f9fa;
+  --white: #fff;
+  --success: #28a745;
+  --info: #17a2b8;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* navbar */
+
+.feet-locker-navbar img{
+	height: 50px;
+	margin: 0px 10px;
+}
+
+.feet-locker-navbar .iconify{
+	font-size: 45px;
+	color: var(--gray4);
+}
+
+
+/* tabs */
+
+.nav-link{
+	color: var(--secondary);
+	font-weight: 500;
+}
+
+.nav-link:hover{
+	color: var(--dark);
+}
+
+.nav-item .iconify{
+	font-size: 25px;
+	color: var(--dark);
+	margin-right: 10px;
+}
+
+/* tab content */
+
+.tab-content-box{
+	width: 250px;
+	margin: 20px 10px;
+	padding: 20px;
+	border: 1px solid var(--gray1);
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.tab-content-box-icon{
+	padding: 10px;
+	border: 1px solid var(--gray1);
+	background-color: var(--light);
+	border-radius: 5px;
+}
+
+.tab-content-box-icon .iconify{
+	color: var(--dark);
+	font-size: 100px;
+}

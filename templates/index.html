@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feet Locker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+</head>
+<body>
+
+<main class="container">
+	<article class="shadow p-4 my-5 bg-white w-50 mx-auto">
+		<div class="text-center my-3">
+			<img src="{{ url_for('static', filename='images/feet-locker.jpg') }}" alt="feet-locker-image" width="300px;">
+		</div>
+		<section class="px-5">
+			<div class="form-group">
+			  <label for="user">User:</label>
+			  <input type="text" class="form-control" id="user" placeholder="Enter user">
+			</div>
+			<div class="form-group">
+			  <label for="password">Password:</label>
+			  <input type="password" class="form-control" id="password" placeholder="Enter password">
+			</div>		
+			<div class="mb-4">
+				<p class="mb-2">Language: </p>
+				<select name="language" class="custom-select">
+					<option selected>EN - English</option>
+				</select>				
+			</div>
+			<div class="form-group">
+			  <label for="client">Client:</label>
+			  <input type="text" class="form-control" id="client" placeholder="Enter client">
+			</div>	
+			<div class="mt-5">
+				<a href="/main" class="btn btn-danger btn-block"role="button">Log in</a>
+			</div>
+			<div class="text-center py-3">
+				<a class="text-dark" href="">Change password</a>
+			</div>
+		</section>
+	</article>
+</main>
+
+</body>
+</html>
